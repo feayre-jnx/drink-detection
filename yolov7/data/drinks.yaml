@@ -1,0 +1,12 @@
+# Drinks dataset
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./ynx_utils/drink_images_tr.txt  # 430 images
+val: ./ynx_utils/drink_images_val.txt  # 20 images
+test: ./ynx_utils/drink_images_val.txt  # 20 images
+
+# number of classes
+nc: 2
+
+# class names
+names: ['bottle', 'can']

@@ -1,0 +1,6 @@
+classes= 2
+train=data/drinks/drinks_train.txt
+valid=data/drinks/drinks_val.txt
+names=data/drinks/drinks.names
+backup=backup/
+eval=trial
