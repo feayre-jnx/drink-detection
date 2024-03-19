@@ -96,12 +96,6 @@ class ObjectDetectionModel(nn.Module):
 
                 layer_outputs.append(x)
 
-            '''
-            h = self.backbone(x)
-            h = self.neck(h)
-            cls_preds = self.cls_head(h)
-            bbox_preds = self.bbox_head(h)'''
-
             return cls_preds, conf_preds, bbox_preds
 
     def prepare_backbone(self, config_path):
